@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		EDAAB75126EF97E000D5F47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75026EF97E000D5F47E /* AppDelegate.swift */; };
 		EDAAB75326EF97E000D5F47E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */; };
-		EDAAB75526EF97E000D5F47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75426EF97E000D5F47E /* ViewController.swift */; };
-		EDAAB75826EF97E000D5F47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB75626EF97E000D5F47E /* Main.storyboard */; };
 		EDAAB75B26EF97E000D5F47E /* PomoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75926EF97E000D5F47E /* PomoGo.xcdatamodeld */; };
 		EDAAB75D26EF97E100D5F47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB75C26EF97E100D5F47E /* Assets.xcassets */; };
 		EDAAB76026EF97E100D5F47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB75E26EF97E100D5F47E /* LaunchScreen.storyboard */; };
 		EDAAB76B26EF97E100D5F47E /* PomoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB76A26EF97E100D5F47E /* PomoGoTests.swift */; };
 		EDAAB77626EF97E100D5F47E /* PomoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB77526EF97E100D5F47E /* PomoGoUITests.swift */; };
+		EDAAB78626EF9A0F00D5F47E /* StringsConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB78526EF9A0F00D5F47E /* StringsConstant.swift */; };
+		EDAAB79326EF9C3100D5F47E /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB79226EF9C3100D5F47E /* TabbarViewController.swift */; };
+		EDAAB79626EF9E8300D5F47E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB79526EF9E8300D5F47E /* HomeViewController.swift */; };
+		EDAAB79826EF9E9500D5F47E /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB79726EF9E9500D5F47E /* CreateTaskViewController.swift */; };
+		EDAAB79A26EF9EA400D5F47E /* PomodoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB79926EF9EA400D5F47E /* PomodoroViewController.swift */; };
+		EDAAB79C26EF9EB200D5F47E /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB79B26EF9EB200D5F47E /* TaskListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		EDAAB74D26EF97E000D5F47E /* PomoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAAB75026EF97E000D5F47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDAAB75426EF97E000D5F47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDAAB75726EF97E000D5F47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDAAB75A26EF97E000D5F47E /* PomoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PomoGo.xcdatamodel; sourceTree = "<group>"; };
 		EDAAB75C26EF97E100D5F47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAAB75F26EF97E100D5F47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		EDAAB77126EF97E100D5F47E /* PomoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAAB77526EF97E100D5F47E /* PomoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoGoUITests.swift; sourceTree = "<group>"; };
 		EDAAB77726EF97E100D5F47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAAB78526EF9A0F00D5F47E /* StringsConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsConstant.swift; sourceTree = "<group>"; };
+		EDAAB79226EF9C3100D5F47E /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		EDAAB79526EF9E8300D5F47E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EDAAB79726EF9E9500D5F47E /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		EDAAB79926EF9EA400D5F47E /* PomodoroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewController.swift; sourceTree = "<group>"; };
+		EDAAB79B26EF9EB200D5F47E /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,14 @@
 		EDAAB74F26EF97E000D5F47E /* PomoGo */ = {
 			isa = PBXGroup;
 			children = (
-				EDAAB75026EF97E000D5F47E /* AppDelegate.swift */,
-				EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */,
-				EDAAB75426EF97E000D5F47E /* ViewController.swift */,
-				EDAAB75626EF97E000D5F47E /* Main.storyboard */,
+				EDAAB79126EF9BEB00D5F47E /* Data */,
+				EDAAB78C26EF9ADC00D5F47E /* Screen */,
+				EDAAB78B26EF9AD200D5F47E /* Service */,
+				EDAAB78426EF99EB00D5F47E /* Common */,
+				EDAAB78326EF99E000D5F47E /* Base */,
 				EDAAB75C26EF97E100D5F47E /* Assets.xcassets */,
 				EDAAB75E26EF97E100D5F47E /* LaunchScreen.storyboard */,
 				EDAAB76126EF97E100D5F47E /* Info.plist */,
-				EDAAB75926EF97E000D5F47E /* PomoGo.xcdatamodeld */,
 			);
 			path = PomoGo;
 			sourceTree = "<group>";
@@ -129,6 +137,122 @@
 				EDAAB77726EF97E100D5F47E /* Info.plist */,
 			);
 			path = PomoGoUITests;
+			sourceTree = "<group>";
+		};
+		EDAAB78326EF99E000D5F47E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB75026EF97E000D5F47E /* AppDelegate.swift */,
+				EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EDAAB78426EF99EB00D5F47E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB78A26EF9A8400D5F47E /* Utils */,
+				EDAAB78926EF9A4300D5F47E /* Extension */,
+				EDAAB78826EF9A3000D5F47E /* Component */,
+				EDAAB78726EF9A1D00D5F47E /* Constant */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EDAAB78726EF9A1D00D5F47E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB78526EF9A0F00D5F47E /* StringsConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		EDAAB78826EF9A3000D5F47E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EDAAB78926EF9A4300D5F47E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EDAAB78A26EF9A8400D5F47E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EDAAB78B26EF9AD200D5F47E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EDAAB78C26EF9ADC00D5F47E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB79426EF9DD000D5F47E /* TaskList */,
+				EDAAB79026EF9BD900D5F47E /* Pomodoro */,
+				EDAAB78F26EF9BCF00D5F47E /* CreateTask */,
+				EDAAB78E26EF9B9500D5F47E /* Home */,
+				EDAAB78D26EF9B8B00D5F47E /* Tabbar */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		EDAAB78D26EF9B8B00D5F47E /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB79226EF9C3100D5F47E /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EDAAB78E26EF9B9500D5F47E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB79526EF9E8300D5F47E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDAAB78F26EF9BCF00D5F47E /* CreateTask */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB79726EF9E9500D5F47E /* CreateTaskViewController.swift */,
+			);
+			path = CreateTask;
+			sourceTree = "<group>";
+		};
+		EDAAB79026EF9BD900D5F47E /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB79926EF9EA400D5F47E /* PomodoroViewController.swift */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
+		EDAAB79126EF9BEB00D5F47E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB75926EF97E000D5F47E /* PomoGo.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EDAAB79426EF9DD000D5F47E /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB79B26EF9EB200D5F47E /* TaskListViewController.swift */,
+			);
+			path = TaskList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +360,6 @@
 			files = (
 				EDAAB76026EF97E100D5F47E /* LaunchScreen.storyboard in Resources */,
 				EDAAB75D26EF97E100D5F47E /* Assets.xcassets in Resources */,
-				EDAAB75826EF97E000D5F47E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAAB75B26EF97E000D5F47E /* PomoGo.xcdatamodeld in Sources */,
-				EDAAB75526EF97E000D5F47E /* ViewController.swift in Sources */,
+				EDAAB78626EF9A0F00D5F47E /* StringsConstant.swift in Sources */,
+				EDAAB79326EF9C3100D5F47E /* TabbarViewController.swift in Sources */,
 				EDAAB75126EF97E000D5F47E /* AppDelegate.swift in Sources */,
 				EDAAB75326EF97E000D5F47E /* SceneDelegate.swift in Sources */,
+				EDAAB79C26EF9EB200D5F47E /* TaskListViewController.swift in Sources */,
+				EDAAB79A26EF9EA400D5F47E /* PomodoroViewController.swift in Sources */,
+				EDAAB79626EF9E8300D5F47E /* HomeViewController.swift in Sources */,
+				EDAAB79826EF9E9500D5F47E /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDAAB75626EF97E000D5F47E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDAAB75726EF97E000D5F47E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDAAB75E26EF97E100D5F47E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
