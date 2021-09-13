@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDAAB75126EF97E000D5F47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75026EF97E000D5F47E /* AppDelegate.swift */; };
+		EDAAB75326EF97E000D5F47E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */; };
+		EDAAB75526EF97E000D5F47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75426EF97E000D5F47E /* ViewController.swift */; };
+		EDAAB75826EF97E000D5F47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB75626EF97E000D5F47E /* Main.storyboard */; };
+		EDAAB75B26EF97E000D5F47E /* PomoGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB75926EF97E000D5F47E /* PomoGo.xcdatamodeld */; };
+		EDAAB75D26EF97E100D5F47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB75C26EF97E100D5F47E /* Assets.xcassets */; };
+		EDAAB76026EF97E100D5F47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB75E26EF97E100D5F47E /* LaunchScreen.storyboard */; };
+		EDAAB76B26EF97E100D5F47E /* PomoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB76A26EF97E100D5F47E /* PomoGoTests.swift */; };
+		EDAAB77626EF97E100D5F47E /* PomoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAAB77526EF97E100D5F47E /* PomoGoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAAB76726EF97E100D5F47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAAB74526EF97E000D5F47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAAB74C26EF97E000D5F47E;
+			remoteInfo = PomoGo;
+		};
+		EDAAB77226EF97E100D5F47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAAB74526EF97E000D5F47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAAB74C26EF97E000D5F47E;
+			remoteInfo = PomoGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDAAB74D26EF97E000D5F47E /* PomoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAAB75026EF97E000D5F47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDAAB75426EF97E000D5F47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDAAB75726EF97E000D5F47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAAB75A26EF97E000D5F47E /* PomoGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PomoGo.xcdatamodel; sourceTree = "<group>"; };
+		EDAAB75C26EF97E100D5F47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAAB75F26EF97E100D5F47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAAB76126EF97E100D5F47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAAB76626EF97E100D5F47E /* PomoGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAAB76A26EF97E100D5F47E /* PomoGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoGoTests.swift; sourceTree = "<group>"; };
+		EDAAB76C26EF97E100D5F47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAAB77126EF97E100D5F47E /* PomoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAAB77526EF97E100D5F47E /* PomoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoGoUITests.swift; sourceTree = "<group>"; };
+		EDAAB77726EF97E100D5F47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAAB74A26EF97E000D5F47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAB76326EF97E100D5F47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAB76E26EF97E100D5F47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDAAB74426EF97E000D5F47E = {
+			isa = PBXGroup;
+			children = (
+				EDAAB74F26EF97E000D5F47E /* PomoGo */,
+				EDAAB76926EF97E100D5F47E /* PomoGoTests */,
+				EDAAB77426EF97E100D5F47E /* PomoGoUITests */,
+				EDAAB74E26EF97E000D5F47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAAB74E26EF97E000D5F47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB74D26EF97E000D5F47E /* PomoGo.app */,
+				EDAAB76626EF97E100D5F47E /* PomoGoTests.xctest */,
+				EDAAB77126EF97E100D5F47E /* PomoGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAAB74F26EF97E000D5F47E /* PomoGo */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB75026EF97E000D5F47E /* AppDelegate.swift */,
+				EDAAB75226EF97E000D5F47E /* SceneDelegate.swift */,
+				EDAAB75426EF97E000D5F47E /* ViewController.swift */,
+				EDAAB75626EF97E000D5F47E /* Main.storyboard */,
+				EDAAB75C26EF97E100D5F47E /* Assets.xcassets */,
+				EDAAB75E26EF97E100D5F47E /* LaunchScreen.storyboard */,
+				EDAAB76126EF97E100D5F47E /* Info.plist */,
+				EDAAB75926EF97E000D5F47E /* PomoGo.xcdatamodeld */,
+			);
+			path = PomoGo;
+			sourceTree = "<group>";
+		};
+		EDAAB76926EF97E100D5F47E /* PomoGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB76A26EF97E100D5F47E /* PomoGoTests.swift */,
+				EDAAB76C26EF97E100D5F47E /* Info.plist */,
+			);
+			path = PomoGoTests;
+			sourceTree = "<group>";
+		};
+		EDAAB77426EF97E100D5F47E /* PomoGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB77526EF97E100D5F47E /* PomoGoUITests.swift */,
+				EDAAB77726EF97E100D5F47E /* Info.plist */,
+			);
+			path = PomoGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAAB74C26EF97E000D5F47E /* PomoGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAAB77A26EF97E100D5F47E /* Build configuration list for PBXNativeTarget "PomoGo" */;
+			buildPhases = (
+				EDAAB74926EF97E000D5F47E /* Sources */,
+				EDAAB74A26EF97E000D5F47E /* Frameworks */,
+				EDAAB74B26EF97E000D5F47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomoGo;
+			productName = PomoGo;
+			productReference = EDAAB74D26EF97E000D5F47E /* PomoGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAAB76526EF97E100D5F47E /* PomoGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAAB77D26EF97E100D5F47E /* Build configuration list for PBXNativeTarget "PomoGoTests" */;
+			buildPhases = (
+				EDAAB76226EF97E100D5F47E /* Sources */,
+				EDAAB76326EF97E100D5F47E /* Frameworks */,
+				EDAAB76426EF97E100D5F47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAAB76826EF97E100D5F47E /* PBXTargetDependency */,
+			);
+			name = PomoGoTests;
+			productName = PomoGoTests;
+			productReference = EDAAB76626EF97E100D5F47E /* PomoGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDAAB77026EF97E100D5F47E /* PomoGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAAB78026EF97E100D5F47E /* Build configuration list for PBXNativeTarget "PomoGoUITests" */;
+			buildPhases = (
+				EDAAB76D26EF97E100D5F47E /* Sources */,
+				EDAAB76E26EF97E100D5F47E /* Frameworks */,
+				EDAAB76F26EF97E100D5F47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAAB77326EF97E100D5F47E /* PBXTargetDependency */,
+			);
+			name = PomoGoUITests;
+			productName = PomoGoUITests;
+			productReference = EDAAB77126EF97E100D5F47E /* PomoGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAAB74526EF97E000D5F47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDAAB74C26EF97E000D5F47E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EDAAB76526EF97E100D5F47E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDAAB74C26EF97E000D5F47E;
+					};
+					EDAAB77026EF97E100D5F47E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDAAB74C26EF97E000D5F47E;
+					};
+				};
+			};
+			buildConfigurationList = EDAAB74826EF97E000D5F47E /* Build configuration list for PBXProject "PomoGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAAB74426EF97E000D5F47E;
+			productRefGroup = EDAAB74E26EF97E000D5F47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAAB74C26EF97E000D5F47E /* PomoGo */,
+				EDAAB76526EF97E100D5F47E /* PomoGoTests */,
+				EDAAB77026EF97E100D5F47E /* PomoGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAAB74B26EF97E000D5F47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAAB76026EF97E100D5F47E /* LaunchScreen.storyboard in Resources */,
+				EDAAB75D26EF97E100D5F47E /* Assets.xcassets in Resources */,
+				EDAAB75826EF97E000D5F47E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAB76426EF97E100D5F47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAB76F26EF97E100D5F47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAAB74926EF97E000D5F47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAAB75B26EF97E000D5F47E /* PomoGo.xcdatamodeld in Sources */,
+				EDAAB75526EF97E000D5F47E /* ViewController.swift in Sources */,
+				EDAAB75126EF97E000D5F47E /* AppDelegate.swift in Sources */,
+				EDAAB75326EF97E000D5F47E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAB76226EF97E100D5F47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAAB76B26EF97E100D5F47E /* PomoGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAB76D26EF97E100D5F47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAAB77626EF97E100D5F47E /* PomoGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAAB76826EF97E100D5F47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAAB74C26EF97E000D5F47E /* PomoGo */;
+			targetProxy = EDAAB76726EF97E100D5F47E /* PBXContainerItemProxy */;
+		};
+		EDAAB77326EF97E100D5F47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAAB74C26EF97E000D5F47E /* PomoGo */;
+			targetProxy = EDAAB77226EF97E100D5F47E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDAAB75626EF97E000D5F47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAAB75726EF97E000D5F47E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAAB75E26EF97E100D5F47E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAAB75F26EF97E100D5F47E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAAB77826EF97E100D5F47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDAAB77926EF97E100D5F47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAAB77B26EF97E100D5F47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = PomoGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.PomoGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAAB77C26EF97E100D5F47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = PomoGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.PomoGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDAAB77E26EF97E100D5F47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = PomoGoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.PomoGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoGo.app/PomoGo";
+			};
+			name = Debug;
+		};
+		EDAAB77F26EF97E100D5F47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = PomoGoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.PomoGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoGo.app/PomoGo";
+			};
+			name = Release;
+		};
+		EDAAB78126EF97E100D5F47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = PomoGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.PomoGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomoGo;
+			};
+			name = Debug;
+		};
+		EDAAB78226EF97E100D5F47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = PomoGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.PomoGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomoGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAAB74826EF97E000D5F47E /* Build configuration list for PBXProject "PomoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAAB77826EF97E100D5F47E /* Debug */,
+				EDAAB77926EF97E100D5F47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAAB77A26EF97E100D5F47E /* Build configuration list for PBXNativeTarget "PomoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAAB77B26EF97E100D5F47E /* Debug */,
+				EDAAB77C26EF97E100D5F47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAAB77D26EF97E100D5F47E /* Build configuration list for PBXNativeTarget "PomoGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAAB77E26EF97E100D5F47E /* Debug */,
+				EDAAB77F26EF97E100D5F47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAAB78026EF97E100D5F47E /* Build configuration list for PBXNativeTarget "PomoGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAAB78126EF97E100D5F47E /* Debug */,
+				EDAAB78226EF97E100D5F47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDAAB75926EF97E000D5F47E /* PomoGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDAAB75A26EF97E000D5F47E /* PomoGo.xcdatamodel */,
+			);
+			currentVersion = EDAAB75A26EF97E000D5F47E /* PomoGo.xcdatamodel */;
+			path = PomoGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDAAB74526EF97E000D5F47E /* Project object */;
+}
